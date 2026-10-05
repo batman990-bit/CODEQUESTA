@@ -1,285 +1,288 @@
 :root {
-    --color-navy-bg: #1e3a60;
-    --color-basalt-stone: #38383d;
-    --color-parchment: #e8dfc8;
-    --color-parchment-border: #8c6d3b;
-    --color-teak: #c87d32;
-    --color-teak-hover: #e08b38;
-    --color-text-dark: #2c221e;
-    --color-sky-blue: #89cff0;
-    --color-gold-glow: rgba(255, 215, 0, 0.85);
+  --color-navy-bg: #1e3a60;
+  --color-basalt-stone: #38383d;
+  --color-parchment: #e8dfc8;
+  --color-parchment-border: #8c6d3b;
+  --color-teak: #c87d32;
+  --color-teak-hover: #e08b38;
+  --color-text-dark: #2c221e;
+  --color-sky-blue: #89cff0;
+  --color-gold-glow: rgba(255, 215, 0, 0.85);
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif';
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body, html {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    background-color: var(--color-navy-bg);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: var(--color-navy-bg);
 }
 
 .map-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100vw;
-    height: 100vw;
-    padding: 20px;
-    background: radial-gradient(circle at centre, #264a78 0%, #1e3a60 100% );
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+  background: radial-gradient(circle at center, #264a78 0%, #1e3a60 100%);
+  position: relative;
 }
 
 .map-stage {
-    display: grid;
-    grid-template-columns: 200px;
-    align-items: center;
-    justify-items: center ;
-    flex-grow : 1;
-    width: 100%;
-    max-width: 1400px;
-    margin: 0 auto;
+  display: grid;
+  grid-template-columns: 310px 1fr 310px;
+  align-items: center;
+  justify-items: center;
+  flex-grow: 1;
+  width: 100%;
+  max-width: 1460px;
+  margin: 0 auto;
+  gap: 20px;
 }
 
 .scroll-panel {
-    background: var(--color-parchment);
-    border: 4px solid var(--color-parchment-border);
-    border-radius: 12px;
-    padding: 20px;
-    width: 100%;
-    height: 420px ;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
-    color: var(--color-text-dark);
+  background: var(--color-parchment);
+  border: 4px solid var(--color-parchment-border);
+  border-radius: 12px;
+  padding: 20px;
+  width: 100%;
+  height: 460px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  color: var(--color-text-dark);
 }
 
 .scroll-content {
-    display:flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
 }
 
 .scroll-divider {
-    border: none;
-    height: 2px;
-    background: var(--color-parchment-border);
-    margin: 10px 0;
+  border: none;
+  height: 2px;
+  background: var(--color-parchment-border);
+  margin: 10px 0;
 }
 
 .scroll-body {
-    font-size: 0.95rem;
-    line-height: 1.5;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  overflow-y: auto;
+  padding-right: 4px;
 }
 
 .world-teaser-box {
-    background: #d4c5a9;
-    border: 2px dashed var(--color-parchment-border);
-    border-radius: 8px;
-    padding: 12px;
-    text-align: center;
+  background: #d4c5a9;
+  border: 2px dashed var(--color-parchment-border);
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
 }
 
 .sprite-preview {
-    width: 70px;
-    height: 70px;
-    margin: 0 auto;
-    background: var(--color-basalt-stone);
-    border-radius: 8px;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  background: var(--color-basalt-stone);
+  border-radius: 8px;
 }
 
 .teaser-caption {
-    font-size: 0.85rem;
-    font-weight: bold;
-    margin-top: 6px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  margin-top: 6px;
 }
 
 .story-summary h3 {
-    font-size: 1rem;
-    margin-bottom: 4px ;
+  font-size: 1rem;
+  margin-bottom: 4px;
 }
 
 .story-summary p {
-    font-size: 0.88rem;
-    line-height: 1.4;
+  font-size: 0.88rem;
+  line-height: 1.4;
 }
 
 .btn-start {
-    background: var(--color-teak);
-    color: #fff;
-    border: none;
-    padding: 12px;
-    font-size: 1,.5rem;
-    font-weight: bold;
-    border-radius: 8px;
-    cursor: pointer;
-    box-shadow: 0 4px  0 #8c531b;
-    transition: all 0.1s ease;
+  background: var(--color-teak);
+  color: #fff;
+  border: none;
+  padding: 12px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 0 #8c531b;
+  transition: all 0.1s ease;
 }
 
 .btn-start:hover {
-    background: var(--color-teak-hover);
+  background: var(--color-teak-hover);
 }
 
 .btn-start:active {
-    transform: translateY(4px);
-    box-shadow: none;
+  transform: translateY(4px);
+  box-shadow: none;
 }
 
 .globe-viewport {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
 }
 
 .top-language-bar {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    z-index: 10;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  z-index: 10;
+  flex-wrap: wrap;
 }
 
 .lang-btn {
-    background: var(--color-basalt-stone);
-    color: #fff;
-    border: 2px solid var(--color-teak);
-    padding: 8px 24px;
-    font-size: 1rem;
-    font-weight: bold;
-    border-radius: 8px;
-    cursor:pointer;
-    transition: all 0.2s ease ;
+  background: var(--color-basalt-stone);
+  color: #fff;
+  border: 2px solid var(--color-teak);
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
 
 .lang-btn:hover,
 .lang-btn.active {
-    background: var(--color-teak);
-    color: #fff;
-    box-shadow: 0 0 10px rgba(200, 125, 50, 0.6);
-    transform: translateY(-2px);
+  background: var(--color-teak);
+  color: #fff;
+  box-shadow: 0 0 10px rgba(200, 125, 50, 0.6);
+  transform: translateY(-2px);
 }
 
 .globe-placeholder {
-    width: 360px;
-    height: 360px;
-    border-radius: 50%;
-    background-image: url('../images/backgrounds/earth-globe.png');
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    box-shadow: 0 0 35px rgba(137, 207, 240, 0.4);
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  background-image: url('../../images/backgrounds/earth-globe.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  box-shadow: 0 0 40px rgba(137, 207, 240, 0.45);
 }
 
 .flag-pin {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    cursor: pointer;
-    z-index: 5;
-    transition: transform 0.25 ease, filter 0.25s ease;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  cursor: pointer;
+  z-index: 5;
+  transition: transform 0.25s ease, filter 0.25s ease, opacity 0.3s ease;
 }
 
-.flag-pin-hidden {
-    opacity: 0;
-    pointer-events: none;
+.flag-pin.hidden {
+  opacity: 0;
+  pointer-events: none;
 }
 
-.flag-bannner {
-    width: 50px;
-    height: 30px;
-    padding: 4px 6px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    clip-path: polygon(0% 0%, 100% 0%, 82% 50%, 100% 100%, 0% 100% );
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
-    transition: filter 0.2s ease;
-    white-space: nowrap;
+.flag-banner {
+  height: 26px;
+  padding: 2px 10px 2px 6px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  clip-path: polygon(0% 0%, 100% 0%, 84% 50%, 100% 100%, 0% 100%);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  transition: filter 0.2s ease;
+  white-space: nowrap;
 }
 
 .flag-text {
-    color: #ffffff;
-    font-size: 0.75rem;
-    font-weight: 800;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
-    letter-spacing: 0,5rem;
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  letter-spacing: 0.5px;
 }
 
 .flag-logo {
-    width: 16px;
-    height: 16px;
-    object-fit: contain;
-    margin-right: 4px;
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  margin-right: 4px;
 }
 
 .flag-pole {
-    width: 3px;
-    height: 22px;
-    background: linear-gradient(to right, #cfcfcf, #ffffff, #8a8a8a);
-    border-radius: 1px;
-    margin-left: 2px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  width: 3px;
+  height: 22px;
+  background: linear-gradient(to right, #cfcfcf, #ffffff, #8a8a8a);
+  border-radius: 1px;
+  margin-left: 2px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 }
 
 .flag-shadow {
-    width: 10px;
-    height: 4px;
-    background: rgba(0, 0, 0, 0.45);
-    border-radius: 50%;
-    margin-left: -2px;
+  width: 10px;
+  height: 4px;
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 50%;
+  margin-left: -2px;
 }
 
 .flag-pin:hover {
-    transform: translateY(-4px) scale(1.1);
-    z-index: 20;
+  transform: translateY(-6px) scale(1.15);
+  z-index: 20;
 }
 
-.flag-pin:hover .flag-bannner {
-    filter: brightness(1.2);
+.flag-pin:hover .flag-banner {
+  filter: brightness(1.2);
 }
 
-.flag-pin:active {
-    transform: translateY(-4px) scale(1.1);
-    z-index: 15;
-    filter: drop-shadow(0 0 10px var(--color-gold-glow));
+.flag-pin.active {
+  transform: translateY(-4px) scale(1.1);
+  z-index: 15;
+  filter: drop-shadow(0 0 10px var(--color-gold-glow));
 }
 
-.flag-pin:activec .flag-pole {
-    background: linear-gradient(to right,#ffe066, #ffffff, #cca100);
+.flag-pin.active .flag-pole {
+  background: linear-gradient(to right, #ffe066, #ffffff, #cca100);
 }
 
 .map-footer-left {
-    display: flex;
-    justify-content: flex-start;
-    z-index: 10;
+  display: flex;
+  justify-content: flex-start;
+  z-index: 10;
 }
 
-.nav-bar-containar {
-    display: flex;
-    gap: 10px;
+.nav-bar-container {
+  display: flex;
+  gap: 10px;
 }
 
 .nav-bar-btn {
-    background: var(--color-basalt-stone);
-    color: #fff;
-    border: 2px solid var(--color-teak);
-    padding: 8px 16px;
-    font-size: 0.88rem;
-    font-weight: bold;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: all 0.2s ease;
+  background: var(--color-basalt-stone);
+  color: #fff;
+  border: 2px solid var(--color-teak);
+  padding: 8px 16px;
+  font-size: 0.88rem;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
 
 .nav-bar-btn:hover {
-    background: var(--color-teak);
+  background: var(--color-teak);
 }
