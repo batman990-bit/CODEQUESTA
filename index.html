@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scale=no, viewport-fit=cover ">
+    <meta name="mobile-web-app-capable" content="yes" >
+    <meta name="apple-mobile-web-app-capable" content="yes" >
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" >
+    <title>CodeQuesta</title>
+
+    <link rel="stylesheet" href="Assets/css/earth-map.css" >
+    <link rel="stylesheet" href="Assets/css/main-menu.css" >
+    <link rel="stylesheet" href="Assets/css/gameplay.css" >
+</head>
+<body>
+
+    <div id="app" >
+
+        <section id="screen-main-menu" class="spa-screen" >
+            <div class="main-menu-card" >
+                <h1 class="game-title">CodeQuesta</h1>
+                <p class="game-subtitle">Journey Through Programming Origins</p>
+                <div class="menu-actions">
+                    <button id="btn-play-game" class="menu-btn primary">Play</button>
+                    <button id="btn-menu-settings" class="menu-btn">Settings</button>
+                </div>
+            </div> 
+         </section>
+
+         <section id="screen-earth-map" class="map-container spa-screen hidden" >
+
+            <main class="map-stage">
+
+                <aside class="scroll-panel scroll-left">
+                    <div class="scroll-content">
+                        <h2 id="lore-title">Select a Language</h2>
+                        <hr class="scroll-divider">
+                        <div id="lore-text" class="scroll-body">
+                            Click on any flag pin on the globe or use the era tabs above to explore the Origins and lore of computing Languages.
+                        </div>
+                    </div>
+                </aside>
+
+                <section  class="globe-viewport">
+                    <header class="top-language-bar" id="era-filter-bar">
+                        <button class="lang-btn active" data-era="all">ALL (19)</button>
+                        <button class="lang-btn" data-era="pioneers">Pioneers ('50s-70s')</button>
+                        <button class="lang-btn" data-era="modern">Modern ('80s-90s')</button>
+                        <button class="lang-btn" data-era="nextgen">Next-Gen ('00s+')</button>
+                    </header>
+
+                    <div id="globe-canvas-container">
+                        <div id="globe-placeholder" class="globe-placeholder">
+                        </div>
+                    </div>
+                </section>
+                
+                <aside class="scroll-panel scroll-right">
+                    <div class="scroll-content">
+                        <h2 id="world-title">CodeQuesta Realm</h2>
+
+                        <div class="world-teaser-box">
+                            <div id="sprite-preview" class="sprite-preview"></div>
+                            <p class="teaser-cpation">Ready to Quest</p>
+                        </div>
+
+                        <div class="story-summary">
+                            <h3>Story Objective</h3>
+                            <p id="story-text">Choose a language on the map to begin your adventure and restore the broken code pathways!</p>
+                        </div>
+
+                        <button id="btn-start-world" class="btn-start" disabled>Start</button>
+                    </div>
+                </aside>
+
+            </main>
+
+            <footer class="map-footer-left">
+                <div class="nav-bar-container">
+                    <button class="nav-bar-btn" id="nav-settings">Settings</button>
+                    <button class="nav-bar-btn" id="nav-profile">Profile</button>
+                    <button class="nav-bar-btn" id="nav-achievements">Badges</button>
+                </div>
+            </footer>
+
+         </section>
+
+         <section id="screen-level-select" class="spa-screen hidden"></section>
+          <header class="level-select-header"> 
+            <button id="btn-back-to-map" class="nav-bar-btn">&larr; World Map</button>
+            <h2 id="selected-world-heading">Language Realm</h2>
+          </header>
+
+          <div class="level-grid-container" id="level-grid">
+          </div>
+         </section>
+
+         <section id="screen-gameplay" class="spa-screen hidden">
+            <header class="gameplay-hud">
+                <button id="btn-pause game" class="nav-bar-btn">|| Pause</button>
+                <span id="gameplay-level-title">Level View</span>
+            </header>
+
+            <main class="gameplay-viewport">
+                <div class="canvas-wrapper">
+                    <canvas id="game-canvas" width="640" height="480"></canvas>
+                </div>
+
+                <div class="editor-wrapper">
+                    <div class="editor-header">Code Console</div>
+                    <textarea id="code-input" placeholder="// Type code here..."></textarea>
+                    <button id="btn-run-code" class="btn-start">Run Code</button>
+                </div>
+            </main>
+         </section>
+
+    </div>
+
+    <script src="src/main.js" type="module"></script>    
+</body>
+</html>
