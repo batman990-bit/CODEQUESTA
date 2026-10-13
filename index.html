@@ -23,6 +23,7 @@
         <div class="menu-actions">
           <button id="btn-play-game" class="menu-btn primary">Play</button>
           <button id="btn-menu-settings" class="menu-btn">Settings</button>
+          <button id="btn-menu-guide" class="menu-btn">Guide</button>
         </div>
       </div>
     </section> 
@@ -42,20 +43,22 @@
         </aside>
 
         <section class="globe-viewport">
-          <header class="top-language-bar" id="era-filter-bar">
-            <button class="lang-btn active" data-era="all">All (19)</button>
-            <button class="lang-btn" data-era="pioneers">Pioneers ('50s-'70s)</button>
-            <button class="lang-btn" data-era="modern">Modern ('80s-'90s)</button>
-            <button class="lang-btn" data-era="nextgen">Next-Gen ('00s+)</button>
+          <header class="top-header-bar">
+            <div class="top-selector-wrapper"> 
+              <div class="selector-header-row">
+                <span class="selector-title">Languages</span>
+                <button id="btn-exit-lang" class="exit-popup-btn hidden" title="Deselect Language"> X Exit</button>
+              </div>
+              <div class="language-grid-2x10" id="top-language-grid"></div>
+            </div>    
           </header>
 
           <div id="globe-canvas-container">
-            <div id="globe-placeholder" class="globe-placeholder">
-            </div>
+            <div id="globe-pins-layer"></div>
           </div>
         </section>
 
-        <aside class="scroll-panel scroll-right">
+        <aside id="right-world-popup" class="scroll-panel scroll-right hidden-popup">
           <div class="scroll-content">
             <h2 id="world-title">CodeQuesta World</h2>
             
@@ -77,6 +80,7 @@
 
       <footer class="map-footer-left">
         <div class="nav-bar-container">
+          <button class="nav-bar-btn" id="nav-main-menu">← Main Menu</button>
           <button class="nav-bar-btn" id="nav-settings">Settings</button>
           <button class="nav-bar-btn" id="nav-profile">Profile</button>
           <button class="nav-bar-btn" id="nav-achievements">Badges</button>
