@@ -28,8 +28,8 @@ body, html {
   width: 100vw;
   height: 100vh;
   position: absolute;
-  top: 0%;
-  left: 0%;
+  top: 0;
+  left: 0;
   display: flex;
   flex-direction: column;
 }
@@ -62,7 +62,7 @@ body, html {
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
 }
 
-.selector-haeder-row {
+.selector-header-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -94,7 +94,7 @@ body, html {
   background: #e74c3c;
   transform: scale(1.05);
 }
-.exit-popup-btn:hidden {
+.exit-popup-btn.hidden {
   display: none !important;
 }.language-grid-2x10 {
   display: grid;
@@ -125,7 +125,7 @@ body, html {
 .lang-card.active {
   background: var(--color-teak);
   border-color: #fff;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
 }
 
 .lang-card-top {
@@ -147,7 +147,7 @@ body, html {
 
 .lang-card-name {
   color: #fff;
-  font-size: 0.67rem;
+  font-size: 0.68rem;
   font-weight: 700;
   text-align: center;
   white-space: nowrap;
@@ -177,8 +177,10 @@ body, html {
   padding: 22px;
   width: 100%;
   height: 460px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5), ;
   color: var(--color-text-dark);
+  position: relative;
+  transition: all 0.3s ease;
 }
 
 .scroll-panel.hidden-popup {
@@ -238,8 +240,6 @@ body, html {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
-  transition: all 0.3 ease;
 }
 
 
@@ -394,7 +394,7 @@ body, html {
 .flag-pin.active {
   transform: translate(-50%, -100%) scale(1.15);
   z-index: 25;
-  filter: drop-shadow(0 0 10px var(--color-gold-glow));
+  filter: drop-shadow(0 0 10px );
 }
 
 .flag-pin.active .flag-pole {
