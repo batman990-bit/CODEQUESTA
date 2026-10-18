@@ -41,7 +41,7 @@ body, html {
 .map-container {
   justify-content: space-between;
   padding: 12px 20px;
-  background: radial-gradient(circle at center, #264a78 0%, #1e3a60 100%);
+  background: radial-gradient(circle at center, #07111f 0%, #010408 100%);
   position: relative;
 }
 
@@ -53,8 +53,8 @@ body, html {
 }
 
 .top-selector-wrapper {
-  background: rgba(20, 40, 70, 0.92);
-  border: 2px solid var(--color-parchment-border);
+  background: rgba(0, 0, 0, 0.92);
+  border: 2px solid  #0055ff;
   border-radius: 10px;
   padding: 8px 14px ;
   width: 100%;
@@ -104,7 +104,7 @@ body, html {
 }
 .lang-card {
   background: #2b2b30;
-  border: 1.5px solid var(--color-parchment-border);
+  border: 1.5px solid #0055ff;
   border-radius: 6px;
   padding: 4px 2px ;
   display: flex;
@@ -305,7 +305,7 @@ body, html {
   width: 480px;
   height: 480px;
   border-radius: 50%;
-  background: radial-gradient(circle at center, #1b689c 0%, #0c4268 80%);
+  background: radial-gradient(circle at center,#1b3b66 0%, #041b3c 100%);
   box-shadow: 0 0 55px rgba(137, 207, 240, 0.5);
   overflow: visible;
   cursor: grab;
@@ -415,7 +415,7 @@ body, html {
 .nav-bar-btn {
   background: var(--color-basalt-stone);
   color: #fff;
-  border: 2px solid var(--color-teak);
+  border: 2px solid #0055ff;
   padding: 6px 16px;
   font-size: 0.85rem;
   font-weight: bold;

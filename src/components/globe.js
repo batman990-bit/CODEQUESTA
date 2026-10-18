@@ -27,7 +27,7 @@ export function initMapUI(onWorldStart) {
 
   scene = new THREE.Scene();
   camera = new THREE.PerspectiveCamera(45, 1, 0.1, 1000);
-  camera.position.z = 3.1;
+  camera.position.z = 2.6;
 
   renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
   renderer.setSize(480, 480);
@@ -190,7 +190,7 @@ export function initMapUI(onWorldStart) {
     if (lang.hasWorld && rightPopup) {
       rightPopup.classList.remove('hidden-popup');
       document.getElementById('world-title').textContent = lang.title;
-      document.getElementById('story-text').textContent = `Explore the realm of ${lang.name} and restore its broken code pathways!`;
+      document.getElementById('story-text').textContent = `UNDER DEVELOPMENT`;
       btnStartWorld.removeAttribute('disabled');
     } else if (rightPopup) {
       rightPopup.classList.add('hidden-popup');
@@ -213,7 +213,7 @@ export function initMapUI(onWorldStart) {
       btnStartWorld.setAttribute('disabled', 'true');
 
       document.getElementById('lore-title').textContent = 'Select a Language';
-      document.getElementById('lore-text').textContent = 'Click on any toothpick flag pin on the globe or select a language card above to explore computing origins and history.';
+      document.getElementById('lore-text').textContent = 'Click on any flag pin on the globe or select a language card above to get infromation about computing languages';
 
       renderLanguageGrid();
       renderPins();
