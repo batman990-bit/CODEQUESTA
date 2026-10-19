@@ -1,5 +1,5 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
-import { LANGUAGES } from '../data/languages.js';
+import { LANGUAGES } from './languages.js';
 
 let selectedLang = null;
 let scene, camera, renderer, globeMesh;
