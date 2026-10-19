@@ -1,5 +1,5 @@
 :root {
-  --color-navy-bg: #1e3a60;
+  --color-navy-bg: #235391 ;
   --color-basalt-stone: #38383d;
   --color-parchment: #f4ecdc;
   --color-parchment-border: #7c5c2b;
@@ -7,7 +7,8 @@
   --color-teak-hover: #e08b38;
   --color-text-dark: #2c221e;
   --color-sky-blue: #89cff0;
-  --color-gold-glow: rgba(255, 215, 0, 0.85);
+  --color-gold-glow: #ffd700d9;
+  --color-border: #ffffff;
 }
 
 * {
@@ -41,7 +42,7 @@ body, html {
 .map-container {
   justify-content: space-between;
   padding: 12px 20px;
-  background: radial-gradient(circle at center, #07111f 0%, #010408 100%);
+  background: radial-gradient(circle at center, #24579a 0%, #235391 100%);
   position: relative;
 }
 
@@ -53,8 +54,8 @@ body, html {
 }
 
 .top-selector-wrapper {
-  background: rgba(0, 0, 0, 0.92);
-  border: 2px solid  #0055ff;
+  background: #57cc02;
+  border: 2px solid var(--color-border);
   border-radius: 10px;
   padding: 8px 14px ;
   width: 100%;
@@ -103,8 +104,8 @@ body, html {
   gap: 6px;
 }
 .lang-card {
-  background: #2b2b30;
-  border: 1.5px solid #0055ff;
+  background: #bcbcbc;
+  border: 1.5px solidvar(--color-border);
   border-radius: 6px;
   padding: 4px 2px ;
   display: flex;
@@ -264,7 +265,7 @@ body, html {
 }
 
 .btn-start {
-  background: var(--color-teak);
+  background: #57cc02;
   color: #fff;
   border: none;
   padding: 12px;
@@ -413,9 +414,9 @@ body, html {
 }
 
 .nav-bar-btn {
-  background: var(--color-basalt-stone);
+  background: #57cc02;
   color: #fff;
-  border: 2px solid #0055ff;
+  border: 2px solidvar(--color-border);
   padding: 6px 16px;
   font-size: 0.85rem;
   font-weight: bold;
