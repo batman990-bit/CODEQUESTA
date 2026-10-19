@@ -17,8 +17,8 @@ export const LANGUAGES = [
           '• <strong>Supercomputing:</strong> Executes heavy physics computations on early and modern mainframes.<br><br>' +
           '<strong>Why it is helpful:</strong><br>' +
           '• <strong>Raw Performance:</strong> Highly optimized for crunching large arrays of numbers fast.<br>' +
-          '• <strong>Pioneer Status:</strong> Established the foundation for compiled programming languages.' +
-         'For more information checkout https://en.wikipedia.org/wiki/Fortran' 
+          '• <strong>Pioneer Status:</strong> Established the foundation for compiled programming languages.<br><br>' +
+         '<strong>For more information : </strong> <br> <a href="https://en.wikipedia.org/wiki/Fortran" target="_blank" style="color: #4a3525" text-decoration: underline;">Wikipedia Link </a>' 
     },
     {
         id: "lisp",
@@ -38,8 +38,8 @@ export const LANGUAGES = [
           '• <strong>Text Editing:</strong> Extensively used to script and customize the Emacs environment.<br><br>' +
           '<strong>Why it is helpful:</strong><br>' +
           '• <strong>Flexibility:</strong> Introduced recursion, conditional statements, and dynamic typing.<br>' +
-          '• <strong>Code-as-Data:</strong> Allows programs to inspect and modify their own structure on the fly.' +
-          'For more information checkout https://en.wikipedia.org/wiki/Lisp_(programming_language)'
+          '• <strong>Code-as-Data:</strong> Allows programs to inspect and modify their own structure on the fly.<br><br>' +
+          '<strong>For more information :</strong> <br> <a href="https://en.wikipedia.org/wiki/Lisp_(programming_language)"  target="_blank" style="color: #4a3525" text-decoration: underline;">Wikipedia Link </a>'
     },
     {
         id: 'cobol',
@@ -59,8 +59,8 @@ export const LANGUAGES = [
           '• <strong>Government Systems:</strong> Manages state records, tax archives, and social security mainframes.<br><br>' +
           '<strong>Why it is helpful:</strong><br>' +
           '• <strong>High Reliability:</strong> Incredibly stable for long-term transactional record-keeping.<br>' +
-          '• <strong>Self-Documenting:</strong> Code reads like plain English business instructions.'+
-          'For more information checkout https://en.wikipedia.org/wiki/COBOL'
+          '• <strong>Self-Documenting:</strong> Code reads like plain English business instructions.<br><br>'+
+          '<strong>For more information: </strong> <br> <a href="https://en.wikipedia.org/wiki/COBOL"  target="_blank" style="color: #4a3525" text-decoration: underline;">Wikipedia Link </a>'
     },
     {
         id:'basic',
@@ -80,8 +80,8 @@ export const LANGUAGES = [
           '• <strong>Home Microcomputers:</strong> Powered the operating systems and games of 1980s personal computers.<br><br>' +
           '<strong>Why it is helpful:</strong><br>' +
           '• <strong>Beginner-Centric:</strong> Made programming accessible to non-science students.<br>' +
-          '• <strong>Quick Learning Curve:</strong> Extremely fast to pick up and write your first script.' +
-          'For more information checkout https://en.wikipedia.org/wiki/BASIC'
+          '• <strong>Quick Learning Curve:</strong> Extremely fast to pick up and write your first script.<br><br>' +
+          '<strong>For more information :</strong> <br> <a href="https://en.wikipedia.org/wiki/BASIC"  target="_blank" style="color: #4a3525" text-decoration: underline;">Wikipedia Link </a>'
     },
     {
         id:'c',
@@ -102,8 +102,8 @@ export const LANGUAGES = [
           '• <strong>Embedded Systems:</strong> Powers microcontrollers, hardware drivers, and IoT devices.<br><br>' +
           '<strong>Why it is helpful:</strong><br>' +
           '• <strong>Blazing Speed:</strong> Executes code with minimal overhead close to bare metal hardware.<br>' +
-          '• <strong>Universal Syntax:</strong> Forms the structural foundation for C++, C#, Java, and JavaScript.'+
-          'For more information checkout https://en.wikipedia.org/wiki/C_(programming_language) '
+          '• <strong>Universal Syntax:</strong> Forms the structural foundation for C++, C#, Java, and JavaScript.<br><br>'+
+          '<strong>For more information: </strong> <br> <a href="https://en.wikipedia.org/wiki/C_(programming_language)"  target="_blank" style="color: #4a3525" text-decoration: underline;">Wikipedia Link </a> '
     },
     {
         id:'sql',
@@ -124,8 +124,8 @@ export const LANGUAGES = [
           '• <strong>Business Intelligence:</strong> Pulls metrics and analytical reports for corporate dashboards.<br><br>' +
           '<strong>Why it is helpful:</strong><br>' +
           '• <strong>Standardized:</strong> Works universally across nearly all relational database engines.<br>' +
-          '• <strong>Powerful Retrieval:</strong> Efficiently searches and joins massive structured datasets.'+
-          'For more information checkout https://en.wikipedia.org/wiki/SQL'
+          '• <strong>Powerful Retrieval:</strong> Efficiently searches and joins massive structured datasets.<br><br>'+
+          '<strong>For more information: </strong> <br> <a href="https://en.wikipedia.org/wiki/SQL"  target="_blank" style="color: #4a3525" text-decoration: underline;">Wikipedia Link </a>'
     },
     {
         id:'cpp',
@@ -146,8 +146,8 @@ export const LANGUAGES = [
           '• <strong>System Software:</strong> Builds web browsers, graphics editors, and financial trading platforms.<br><br>' +
           '<strong>Why it is helpful:</strong><br>' +
           '• <strong>Speed with Abstraction:</strong> Combines bare-metal speed with organized object structures.<br>' +
-          '• <strong>Fine-Tuned Control:</strong> Advanced memory management for resource-intensive apps.'+
-          'For more information checkout https://en.wikipedia.org/wiki/C++'
+          '• <strong>Fine-Tuned Control:</strong> Advanced memory management for resource-intensive apps.<br><br>'+
+          '<strong> For more information :</strong> <br> <a href="https://en.wikipedia.org/wiki/C++"  target="_blank" style="color: #4a3525" text-decoration: underline;">Wikipedia Link </a>'
     },
     {
         id:'perl',
@@ -167,8 +167,8 @@ export const LANGUAGES = [
           '• <strong>Text Processing:</strong> Parses, cleans, and transforms massive log files.<br><br>' +
           '<strong>Why it is helpful:</strong><br>' +
           '• <strong>Regex Master:</strong> Unmatched ability to search, match, and replace complex string patterns.<br>' +
-          '• <strong>Flexible Philosophy:</strong> Follows the motto "Theres more than one way to do it."' +
-          'For more information checkout https://en.wikipedia.org/wiki/perl' 
+          '• <strong>Flexible Philosophy:</strong> Follows the motto "Theres more than one way to do it."<br><br>' +
+          '<strong>For more information: </strong> <br> <a href="https://en.wikipedia.org/wiki/perl"  target="_blank" style="color: #4a3525" text-decoration: underline;">Wikipedia Link </a>'
     },
     {
         id:'python',
@@ -192,8 +192,8 @@ export const LANGUAGES = [
           '<strong>Why it is helpful:</strong><br>' +
           '• <strong>Beginner-Friendly:</strong> Clear, English-like syntax makes it easy to read and learn.<br>' +
           '• <strong>Batteries-Included:</strong> Comes with ready-to-use built-in tools for almost any project.<br>' +
-          '• <strong>High Demand:</strong> One of the most popular languages used by top tech companies worldwide.'+
-          'For more information checkout https://en.wikipedia.org/wiki/Python_(programming_language)'
+          '• <strong>High Demand:</strong> One of the most popular languages used by top tech companies worldwide.<br><br>'+
+          '<strong>For more information :</strong> <br>  <a href="https://en.wikipedia.org/wiki/Python_(programming_language)"  target="_blank" style="color: #4a3525" text-decoration: underline;">Wikipedia Link </a>'
     },
     {
         id:'html',
@@ -214,8 +214,8 @@ export const LANGUAGES = [
           '• <strong>Document Formatting:</strong> Structures hypermedia documents displayed across web browsers.<br><br>' +
           '<strong>Why it is helpful:</strong><br>' +
           '• <strong>Universal Standard:</strong> Recognized and interpreted natively by every web browser on Earth.<br>' +
-          '• <strong>Intuitive Semantics:</strong> Clear tag hierarchy makes defining web page layout straightforward.'+
-          'For more information checkout https://en.wikipedia.org/wiki/HTML'
+          '• <strong>Intuitive Semantics:</strong> Clear tag hierarchy makes defining web page layout straightforward.<br><br>'+
+          '<strong>For more information :</strong> <br> <a href="https://en.wikipedia.org/wiki/HTML"  target="_blank" style="color: #4a3525" text-decoration: underline;">Wikipedia Link </a>'
     },
     {
         id:'css',
@@ -236,8 +236,8 @@ export const LANGUAGES = [
           '• <strong>UI Animations:</strong> Powers smooth visual transitions, hover states, and dynamic interface motion.<br><br>' +
           '<strong>Why it is helpful:</strong><br>' +
           '• <strong>Separation of Concerns:</strong> Keeps visual design decoupled from the underlying document structure.<br>' +
-          '• <strong>Responsive Design:</strong> Adapts layouts seamlessly to any screen size or device orientation.'+
-          'For more information checkout https://en.wikipedia.org/wiki/CSS'
+          '• <strong>Responsive Design:</strong> Adapts layouts seamlessly to any screen size or device orientation.<br><br>'+
+          '<strong>For more information: </strong> <br> <a href="https://en.wikipedia.org/wiki/CSS"  target="_blank" style="color: #4a3525" text-decoration: underline;">Wikipedia Link </a>'
     },
     {
         id:'ruby',
@@ -257,8 +257,8 @@ export const LANGUAGES = [
           '• <strong>Prototyping:</strong> Enables rapid development of Minimum Viable Products (MVPs) for startups.<br><br>' +
           '<strong>Why it is helpful:</strong><br>' +
           '• <strong>Developer Happiness:</strong> Designed to make programming enjoyable, intuitive, and productive.<br>' +
-          '• <strong>Expressive Code:</strong> Reads naturally, closely resembling plain English sentences.'+
-          'For more information checkout https://en.wikipedia.org/wiki/RUBY_(programming_language)'
+          '• <strong>Expressive Code:</strong> Reads naturally, closely resembling plain English sentences.<br><br>'+
+          '<strong>For more information :</strong> <br> <a href="https://en.wikipedia.org/wiki/RUBY_(programming_language)"  target="_blank" style="color: #4a3525" text-decoration: underline;">Wikipedia Link </a>'
     },
     {
         id:'java',
@@ -279,8 +279,8 @@ export const LANGUAGES = [
           '• <strong>Mobile Apps:</strong> Formed the primary foundation for native Android operating system application development.<br><br>' +
           '<strong>Why it is helpful:</strong><br>' +
           '• <strong>Portability:</strong> "Write Once, Run Anywhere" capability powered by the Java Virtual Machine (JVM).<br>' +
-          '• <strong>Enterprise Reliability:</strong> Proven security and long-term stability for massive corporate systems.'+
-          'For more information checkout https://en.wikipedia.org/wiki/Java_(programming_language)'
+          '• <strong>Enterprise Reliability:</strong> Proven security and long-term stability for massive corporate systems.<br><br>'+
+          '<strong>For more information :</strong> <br> <a href="https://en.wikipedia.org/wiki/Java_(programming_language)"  target="_blank" style="color: #4a3525" text-decoration: underline;">Wikipedia Link </a>'
     },
     {
         id:'javascript',
@@ -301,8 +301,8 @@ export const LANGUAGES = [
           '• <strong>Full-Stack Servers:</strong> Runs high-performance backend infrastructure using Node.js.<br><br>' +
           '<strong>Why it is helpful:</strong><br>' +
           '• <strong>Ubiquity:</strong> Executes natively inside every modern web browser worldwide without plugins.<br>' +
-          '• <strong>Full-Stack Versatility:</strong> Allows developers to build both frontend and backend systems using a single language.'+
-          'For more information checkout https://en.wikipedia.org/wiki/JavaScript'
+          '• <strong>Full-Stack Versatility:</strong> Allows developers to build both frontend and backend systems using a single language.<br><br>'+
+          '<strong>For more information :</strong> <br> <a href="https://en.wikipedia.org/wiki/JavaScript"  target="_blank" style="color: #4a3525" text-decoration: underline;">Wikipedia Link </a>'
     },
     {
         id:'php',
@@ -322,8 +322,8 @@ export const LANGUAGES = [
           '• <strong>E-Commerce:</strong> Drives popular online shopping platforms like WooCommerce and Magento.<br><br>' +
           '<strong>Why it is helpful:</strong><br>' +
           '• <strong>Web-First Design:</strong> Built specifically for seamless database integration and server-side rendering.<br>' +
-          '• <strong>Easy Hosting:</strong> Supported universally by nearly every web hosting provider on the internet.'+
-          'For more information checkout https://en.wikipedia.org/wiki/PHP'
+          '• <strong>Easy Hosting:</strong> Supported universally by nearly every web hosting provider on the internet.<br><br>'+
+          '<strong>For more information :</strong> <br> <a href="https://en.wikipedia.org/wiki/PHP"  target="_blank" style="color: #4a3525" text-decoration: underline;">Wikipedia Link </a>'
     },
     {
         id:'csharp',
@@ -344,8 +344,8 @@ export const LANGUAGES = [
           '• <strong>Enterprise Software:</strong> Builds robust Windows desktop applications, cloud services, and enterprise APIs.<br><br>' +
           '<strong>Why it is helpful:</strong><br>' +
           '• <strong>Great Tooling:</strong> Fully supported by Visual Studio and the expansive .NET ecosystem.<br>' +
-          '• <strong>Type Safety:</strong> Catches potential errors early through robust compile-time type checks.'+
-          'For more information checkout https://en.wikipedia.org/wiki/C_Sharp_(programming_language)'
+          '• <strong>Type Safety:</strong> Catches potential errors early through robust compile-time type checks.<br><br>'+
+          '<strong>For more information :</strong> <br> <a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"  target="_blank" style="color: #4a3525" text-decoration: underline;">Wikipedia Link </a>'
     },
     {
         id:'go',
@@ -365,8 +365,8 @@ export const LANGUAGES = [
           '• <strong>Microservices:</strong> Handles high-throughput backend networking, APIs, and distributed systems.<br><br>' +
           '<strong>Why it is helpful:</strong><br>' +
           '• <strong>Lightning Fast:</strong> Compiles directly into native machine code in seconds.<br>' +
-          '• <strong>Easy Concurrency:</strong> Goroutines make managing thousands of simultaneous tasks effortless.'+
-          'For more information checkout https://en.wikipedia.org/wiki/Go_(programming_language)'
+          '• <strong>Easy Concurrency:</strong> Goroutines make managing thousands of simultaneous tasks effortless.<br><br>'+
+          '<strong>For more information: </strong> <br> <a href="https://en.wikipedia.org/wiki/Go_(programming_language)"  target="_blank" style="color: #4a3525" text-decoration: underline;">Wikipedia Link </a>'
     },
     {
         id:'rust',
@@ -387,8 +387,8 @@ export const LANGUAGES = [
           '• <strong>High-Speed Engines:</strong> Powers WebAssembly modules and high-performance game engines.<br><br>' +
           '<strong>Why it is helpful:</strong><br>' +
           '• <strong>Memory Safety:</strong> Prevents null pointer dereferences and data races without needing a garbage collector.<br>' +
-          '• <strong>Fearless Concurrency:</strong> Guarantees thread safety at compile time, eliminating race conditions.'+
-          'For more information checkout https://en.wikipedia.org/wiki/Rust_(programming_language)'
+          '• <strong>Fearless Concurrency:</strong> Guarantees thread safety at compile time, eliminating race conditions.<br><br>'+
+          '<strong>For more information :</strong> <br> <a href="https://en.wikipedia.org/wiki/Rust_(programming_language)"  target="_blank" style="color: #4a3525" text-decoration: underline;">Wikipedia Link </a>'
     },
     {
         id:'kotlin',
@@ -408,8 +408,8 @@ export const LANGUAGES = [
           '• <strong>Server-Side Backends:</strong> Builds scalable web applications running on the JVM.<br><br>' +
           '<strong>Why it is helpful:</strong><br>' +
           '• <strong>Null Safety:</strong> Built-in type system safeguards eliminate dreaded NullPointerExceptions.<br>' +
-          '• <strong>Interoperability:</strong> Works seamlessly alongside existing Java codebases and libraries.'+
-          'For more information checkout https://en.wikipedia.org/wiki/Kotlin'
+          '• <strong>Interoperability:</strong> Works seamlessly alongside existing Java codebases and libraries.<br><br>'+
+          '<strong>For more information: </strong> <br> <a href="https://en.wikipedia.org/wiki/Kotlin"  target="_blank" style="color: #4a3525" text-decoration: underline;">Wikipedia Link </a>'
     },
     {
         id:'typescript',
@@ -430,7 +430,7 @@ export const LANGUAGES = [
           '• <strong>Backend Services:</strong> Scales robust enterprise microservices built with Node.js.<br><br>' +
           '<strong>Why it is helpful:</strong><br>' +
           '• <strong>Early Error Catching:</strong> Catches bugs and type mismatches in your editor before the code runs.<br>' +
-          '• <strong>Supercharged IDEs:</strong> Enables advanced autocompletion, refactoring, and code navigation.'+
-          'For more information checkout https://en.wikipedia.org/wiki/TypeScript'
+          '• <strong>Supercharged IDEs:</strong> Enables advanced autocompletion, refactoring, and code navigation.<br><br>'+
+          '<strong>For more information :</strong> <br> <a href="https://en.wikipedia.org/wiki/TypeScript"  target="_blank" style="color: #4a3525" text-decoration: underline;">Wikipedia Link </a>'
     },
 ]
