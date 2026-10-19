@@ -258,7 +258,7 @@ export const LANGUAGES = [
           '<strong>Why it is helpful:</strong><br>' +
           '• <strong>Developer Happiness:</strong> Designed to make programming enjoyable, intuitive, and productive.<br>' +
           '• <strong>Expressive Code:</strong> Reads naturally, closely resembling plain English sentences.<br><br>'+
-          '<strong>For more information :</strong> <br> <a href="https://en.wikipedia.org/wiki/RUBY_(programming_language)"  target="_blank" style="color: #4a3525" text-decoration: underline;">Wikipedia Link </a>'
+          '<strong>For more information :</strong> <br> <a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)"  target="_blank" style="color: #4a3525" text-decoration: underline;">Wikipedia Link </a>'
     },
     {
         id:'java',

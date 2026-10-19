@@ -213,7 +213,7 @@ export function initMapUI(onWorldStart) {
       btnStartWorld.setAttribute('disabled', 'true');
 
       document.getElementById('lore-title').textContent = 'Select a Language';
-      document.getElementById('lore-text').textContent = 'Click on any flag pin on the globe or select a language card above to get infromation about computing languages';
+      document.getElementById('lore-text').textContent = 'Click on any flag pin on the globe or select a language card above to get infromation about Programming language';
 
       renderLanguageGrid();
       renderPins();
