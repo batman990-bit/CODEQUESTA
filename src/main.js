@@ -1,4 +1,4 @@
-import { initMapUI } from './components/globe.js';
+import { initMapUI } from '../map-ui/globe.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   const screenMainMenu = document.getElementById('screen-main-menu');
